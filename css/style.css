@@ -135,6 +135,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	line-height: 1.5em;
 }
 
+
+
 /*#chart {
 	height: auto;
 	width: 200px;
@@ -190,15 +192,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 
 /* Download and Share */
 
-#share ul {
-	display: inline-block;
-	float: left;
+
+#share-list {
+	height: 50px;
+	margin-top: 3px;
 }
 
-#share ul li {
+#share-list ul li {
 	display: inline-block;
 	margin-left: 10px;
 	float: left;
+	margin-top: 10px;
 }
 
 .download-button {
@@ -248,11 +252,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	display:inline-block;
 	color:#777779;
 	font-family:arial;
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
-	padding:5px 18px;
+	padding:4px 18px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
+	/*margin-top: -1px;*/
 }.email-button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
