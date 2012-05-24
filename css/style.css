@@ -1,3 +1,5 @@
+/* @override http://mlekirby.com/css/style.css */
+
 /* @override http://dl.dropbox.com/u/3503522/mlekirby_html/css/style.css */
 
 html {
@@ -180,6 +182,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 }
 
 /* Download and Share */
+
+#share ul {
+	display: inline-block;
+}
 
 #share ul li {
 	display: inline;
