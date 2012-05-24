@@ -143,9 +143,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	
 }
 
-#chart img {
-	width: 200px;
-	margin-left: auto;
+#research img {
+	/*margin-left: auto;*/
+	/*box-shadow: 1px 0px 10px #ddd;*/
+	margin-left: 15px
 }
 
 #chart p {
