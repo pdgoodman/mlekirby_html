@@ -128,12 +128,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 
 #research h4 {
 	font-size: 1.1em;
+	
 	font-weight: normal;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	line-height: 1.5em;
 }
 
-#chart {
+/*#chart {
 	height: auto;
 	width: 200px;
 	padding: 10px;
@@ -141,12 +143,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	border-radius:5px;
 	box-shadow: 2px 2px 2px #ddd;
 	
-}
+}*/
 
 #research img {
 	/*margin-left: auto;*/
 	/*box-shadow: 1px 0px 10px #ddd;*/
-	margin-left: 15px
+	margin: 15px;
+	
 }
 
 #chart p {
@@ -160,6 +163,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	background-color: #ffc079;
 	box-shadow: 3px 3px 5px #ddd;
 	border-radius: 7px;
+	padding: 3px;
+	margin-right: 10px;
+	font-size: .9em;
 }
 
 
