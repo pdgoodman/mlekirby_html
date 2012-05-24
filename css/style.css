@@ -14,7 +14,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	
 }
 
-
 #logo h1 a {
 	color: #1F5653;
 	font-size: 1.2em;
@@ -248,6 +247,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 }.email-button:active {
 	position:relative;
 	top:1px;
+	
+	}
 
 #footer {
 	background-color: whitesmoke;
