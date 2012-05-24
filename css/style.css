@@ -239,11 +239,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	border-radius:6px;
 	border:1px solid #dcdcdc;
 	display:inline-block;
-	color:#777777;
+	color:#777779;
 	font-family:arial;
-	font-size:15px;
+	font-size:14px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:5px 18px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
 }.email-button:hover {
