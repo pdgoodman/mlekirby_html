@@ -110,6 +110,144 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 
 }
 
+/* research page styles */
+
+#research {
+	background-color: whitesmoke;
+}
+
+#research h1, h2, h3, h4, p {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#research h1, h2, h3 {
+	font-family: 'Trocchi', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#research h4 {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#chart {
+	height: auto;
+	width: 200px;
+	padding: 10px;
+	background-color: #ddd;
+	border-radius:5px;
+	box-shadow: 2px 2px 2px #ddd;
+	
+}
+
+#chart img {
+	width: 200px;
+	margin-left: auto;
+}
+
+#chart p {
+	font-style: italic;
+	font-size: .9em;
+	text-align: center;
+	margin:5px;
+}
+
+#methodology {
+	background-color: #ffc079;
+	box-shadow: 3px 3px 5px #ddd;
+	border-radius: 7px;
+}
+
+
+#methodology ul {
+	margin-top: 1px;
+	margin-bottom: 15px;
+	padding-right: 12px;
+	font-size: 1em;
+
+}
+
+#methodology ul li {
+	margin-left: -13px;
+	margin-bottom: 1px;
+
+}
+
+#methodology h3 {
+	margin: 8px;
+
+}
+
+/* Download and Share */
+
+#share ul li {
+	display: inline;
+	margin-left: 20px;
+	
+}
+
+.download-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#e66400;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:11px 46px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}.download-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.download-button:active {
+	position:relative;
+	top:1px;
+}
+
+.email-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.email-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.email-button:active {
+	position:relative;
+	top:1px;
 
 #footer {
 	background-color: whitesmoke;
@@ -119,4 +257,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 #twtr-widget-1 div.twtr-doc div.twtr-bd div.twtr-timeline {
 	font-size: 1.3em;
 }
+
+
 
