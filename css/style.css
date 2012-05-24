@@ -115,6 +115,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 
 #research {
 	background-color: whitesmoke;
+	border-radius:10px;
+	
 }
 
 #research h1, h2, h3, h4, p {
