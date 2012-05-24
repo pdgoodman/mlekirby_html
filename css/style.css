@@ -185,12 +185,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 
 #share ul {
 	display: inline-block;
+	float: left;
 }
 
 #share ul li {
 	display: inline;
 	margin-left: 20px;
-	
+	float: left;
 }
 
 .download-button {
@@ -213,7 +214,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	padding:11px 46px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
-	margin-left: 100px;
+	margin-left: 70px;
 	margin-bottom: 20px;
 }.download-button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
