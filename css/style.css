@@ -34,23 +34,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc077', end
 	font-size: 1.3em;
 	display: inline;
 	float: left;
-	margin-left: 20px;
+	margin-left: 10px;
 	font-weight: bold;
 	text-decoration: none;
-	color: #1f5653;
+	color: #1F5653;
 	padding:  4px;
-	border: 1px solid;
+	border: 1px solid #d3970b;
 	border-radius: 5px;
 	}
 
 
 #nav ul li a:hover {
-	background-color: #fdefe5;
+	background-color: #fee4b3;
 	
 	}
 	
 body.home a.home, body.research a.research {
-	background-color: #fdefe5;
+	background-color: #fee4b3;
 }
     
 
