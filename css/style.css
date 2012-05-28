@@ -206,7 +206,7 @@ body.home a.home, body.research a.research {
 
 #share-list ul li {
 	display: inline-block;
-	margin-left: 14px;
+	margin-left: 2px;
 	float: left;
 	margin-top: 1px;
 }
@@ -237,7 +237,7 @@ body.home a.home, body.research a.research {
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
 	margin-left: 15px;
-/*  margin-bottom: 20px;*/
+	margin-bottom: 20px;
 }.download-button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
