@@ -135,10 +135,12 @@ body.home a.home, body.research a.research {
 
 #research h4 {
 	font-size: 1.07em;
-	font-weight: normal;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	line-height: 1.5em;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.4em;
+    margin-left: 25px;
+    margin-right: 30px;
 }
 
 
