@@ -199,6 +199,47 @@ body.home a.home, body.research a.research {
 /* Download and Share */
 
 
+
+
+#sharing_big_box {
+	background-color: ;
+	border-radius:10px;
+	margin-top: 15px;
+	
+}
+
+#share {
+background: #fbc994;
+	height: 210px;
+	border-radius: 10px;
+}
+
+#emailme {
+	background: #fbc994;
+	height: 210px;
+	border-radius: 10px;
+}
+
+#emailme button {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+#download {
+	background: #fbc994;
+	height: 210px;
+	border-radius: 10px;
+}
+
+#download button {
+	margin-left: 30px;
+}
+
+/*#download {
+	border-right: 2px solid #000;
+	margin-top: ;
+}*/
+
 #share-list {
 	height: 50px;
 	margin-top: 3px;
@@ -244,8 +285,6 @@ body.home a.home, body.research a.research {
 	padding:7px 36px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
-	margin-left: 15px;
-	margin-bottom: 20px;
 }.download-button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
@@ -326,6 +365,10 @@ body.home a.home, body.research a.research {
 	top:1px;
 
 	}
+	
+
+	
+	
 
 /* Footer styling */ 
 
